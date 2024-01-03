@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    
+</head>
+<body>
+    <div class="mdiv">
+        <div class="weather-app">
+            <h2 align="center" class="heading">WEATHER FORECAST</h2>
+            <div class="ip">
+                <input type="text" name="" id="userText">
+                <button onclick="getWeatherData();"><img src="https://www.freeiconspng.com/uploads/search-icon-png-9.png" alt="" height="25px" width="25px"></button>
+            </div>
+            <div class="info" align="center">
+                <img src="./SunnyImage.png" alt="Weather_img" class="Weather_img" height="250px" width="250px">
+                <h1 id="temp">27</h1>
+                <h2 id="city">Pune</h2>
+            </div>
+            <div class="info2">
+                <div class="humidity">
+                    <img src="https://icons.veryicon.com/png/o/education-technology/iot-icon/humidity-4.png" alt="humitity-img" class="humi">
+                    <h3 style="font-family: cursive;">HUMIDITY</h3>
+                    <h4 id="humidity-info">50%</h4>
+                </div>
+                <div class="wind">
+                    <img src="https://icon-library.com/images/wind-icon-png/wind-icon-png-2.jpg" alt="humidity" class="humi">
+                    <h3 style="font-family: cursive;">WIND</h3>
+                    <h4 id="wind-info">4 km/hr</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+        
+        
+</body>
+</html>
